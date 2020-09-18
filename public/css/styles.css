@@ -1,0 +1,57 @@
+.material-icons {
+  vertical-align: bottom;
+}
+
+blockquote.success {
+  border-left: 5px solid #66bb6a;
+}
+
+#purpose {
+  font-size: 30px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, .chips.focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+ul.dropdown-content.select-dropdown li span, ul.dropdown-content li a {
+  color: #000; /* no need for !important :) */
+}
+
+ul.dropdown-content.select-dropdown li.disabled span {
+  color: #a3a3a3; /* no need for !important :) */
+}
+
+.btn-small {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0.5rem;
+}
+
+.chips {
+  margin-top: 10px;
+}
+
+div.room-date-container div.input-field {
+  padding: 0;
+}
+
+div.room-date-container div.input-field.col label {
+  left: 0;
+}
